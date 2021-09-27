@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-principal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #010101;
+}
+.menu-principal-link{
+    font-size: 16px;
+    color: #c4c4c4;
+    text-decoration: none;
+    margin: 0 50px;
+}
+#inicio{
+    background-color: #db8912;
+    height: 50vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inicio h1{
+   color: #010101;
+   font-size: 60px; 
+}
+#inicio p{
+    margin: 10px;
+    color: #010101;
+    font-size: 30px;
+    text-align: center;
+}
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#sobre .sobre-coluna{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sobre .sobre-imagem{
+    background-image: url(https://d1fdloi71mui9q.cloudfront.net/go3z6DmTMOZIdXuaIWZH_f92G0ecInQ3AL1M4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sobre .sobre-texto{
+    background-color: #c4c4c4;
+    color: #010101;
+    padding: 0 50px 0 50px;
+}
+#sobre .sobre-texto h1{
+    font-size: 45px;
+    margin: 10px;
+    text-align:center;
+}
+#sobre .sobre-texto p{
+    font-size: 25px;
+}
+#galeria{
+    margin: 20px 35px;
+}
+#galeria .galeria-slide-item img{
+    padding: 20px;
+} 
+#footer{
+    background-color: #010101;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 0;
+}
